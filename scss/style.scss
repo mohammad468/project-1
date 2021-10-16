@@ -1,0 +1,42 @@
+@import "../node_modules/bootstrap/scss/bootstrap";
+
+* {
+  box-sizing: border-box;
+  font-family: "sahel";
+  font-weight: bold;
+}
+.sahel-b {
+  font-family: "sahel bold";
+}
+.sahel-bl {
+  font-family: "sahel black";
+}
+.mybg {
+  background-color: $gray-200;
+}
+.transform {
+  width: 100vw;
+  height: 100vh;
+  position: relative;
+}
+.myshadow {
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.37);
+}
+.mysquare1 {
+  width: 50px;
+  height: 50px;
+  cursor: pointer;
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  transition: all 200ms ease-in-out;
+}
+.mysquare2 {
+  width: 50px;
+  height: 100px;
+  cursor: pointer;
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  transition: all 200ms ease-in-out;
+}
